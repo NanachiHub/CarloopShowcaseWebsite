@@ -11,13 +11,10 @@
 <a href="outputs/topics_over_time.html">topics over time</a>
 
 <script type="text/javascript">
-document.body.onload = myFunc;
-
-function myFunc() {
-    return function() {
-        var element = document.getElementById("start");
-        element.innerHTML = 'Hello!';
-    };
+document.body.onload = function {
+    const element = document.getElementById("start");
+    element.innerHTML = 'Hello!';
+}
 </script>
 
 </body>
