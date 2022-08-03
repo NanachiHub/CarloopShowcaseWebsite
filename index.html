@@ -5,8 +5,20 @@
 </head>
 <body>
 
-<a href="user_distribution.html">user distribution</a>
-<a href="topics_over_time">topics over time</a>
+<div id="start"></div>
+<a href="outputs/user_distribution.html">user distribution</a>
+<a href="outputs/topics_over_time.html">topics over time</a>
+<a href="outputs/topics_over_time.html">topics over time</a>
+
+<script type="text/javascript">
+document.body.onload = myFunc;
+
+function myFunc() {
+    return function() {
+        var element = document.getElementById("start");
+        element.innerHTML = 'Hello!';
+    };
+</script>
 
 </body>
 </html>
